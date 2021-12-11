@@ -22,7 +22,7 @@ io.on('connection', socket => {
 
         
     // Welcome Current user
-    socket.emit('message', formatMessage(botName,'Welcome to ChatCord!'))
+    socket.emit('message', formatMessage(botName,'Welcome to Messenger!'))
 
     // Broadcast when a user connects
     socket.broadcast
